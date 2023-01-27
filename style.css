@@ -19,7 +19,6 @@ body {
   transform: scale(2);
 }
 .circular .inner {
-    display: none;
   position: absolute;
   z-index: 6;
   top: 50%;
@@ -32,6 +31,16 @@ body {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
 }
 
+.circular .numb{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 10;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1c33a8;
+}
 .circular .bar{
     position: absolute;
     height: 100%;
@@ -47,7 +56,7 @@ body {
     
     -webkit-border-radius: 100%;
     clip: rect(0px , 50px , 100px, 0px);
-    background: #4158d0;
+    background: #9345fa;
 }
 .circle .left .progress{
     z-index: 1;
