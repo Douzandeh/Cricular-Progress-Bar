@@ -7,4 +7,4 @@ setInterval(() => {
     counter += 1;
     numb.textContent = counter + "%";
   }
-}, 70);
+}, 75);
